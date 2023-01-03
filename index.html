@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Spades</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+    <script src="jquery-3.6.2.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="spades.js"></script>
+
+</head>
+
+<body>
+    <table id="tblResult" class="table table-bordered table-sm" style="text-align: center;">
+        <thead class="thead">
+            <tr>
+                <th>Bags</th>
+                <th colspan="2">Amir</th>
+                <th colspan="2">Kiyan</th>
+                <th class="TotalPointL" style="background-color: rgb(166, 206, 164);">Points</th>
+                <th style="background-color: rgb(218, 190, 190);">#</th>
+                <th class="TotalPointR" style="background-color: rgb(166, 206, 164);">Points</th>
+                <th colspan="2">Amin</th>
+                <th colspan="2">Mehrdad</th>
+                <th>Bags</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th colspan="2">Amir</th>
+                <th colspan="2">Kiyan</th>
+                <th class="TotalPointL" style="background-color: rgb(166, 206, 164);">Points</th>
+                <th style="background-color: rgb(218, 190, 190);"><input type="button" value="New" onclick="new_click()" /></th>
+                <th class="TotalPointR" style="background-color: rgb(166, 206, 164);">Points</th>
+                <th colspan="2">Amin</th>
+                <th colspan="2">Mehrdad</th>
+                <th></th>
+            </tr>
+        </tfoot>
+    </table>
+    <div style="text-align: center;"><input type="button" value="Save" onclick="save_click()" /></div>
+</body>
+
+</html>
